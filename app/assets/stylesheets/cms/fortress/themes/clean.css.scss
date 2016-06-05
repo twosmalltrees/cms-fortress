@@ -1,7 +1,7 @@
 body#comfy {
   .left-column-content {
     ul.navigation {
-      a.active {
+      li.active {
         &:after {
           border: 7px solid transparent;
           border-right-color: #fff;
