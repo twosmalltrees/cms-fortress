@@ -2,7 +2,11 @@ body#comfy {
   .left-column-content {
     ul.navigation {
       li.active {
-        &:after {
+        
+        background-color: #1f1f1f;
+        box-shadow: inset 0px 0px 10px #000;
+
+        a:after {
           border: 7px solid transparent;
           border-right-color: #fff;
           position: absolute;
