@@ -1,8 +1,20 @@
 body#comfy {
+
+  .navbar {
+    position: fixed;
+    top:0;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .body-wrapper {
+    margin-top: 50px;
+  }
+
   .left-column-content {
     ul.navigation {
       li.active {
-        
+
         background-color: #1f1f1f;
         box-shadow: inset 0px 0px 10px #000;
 
